@@ -14,6 +14,12 @@ def get_response(user_input: str) -> str:
         return 'See you!'
     elif 'roll dice' in lowered:
         return f'You rolled: {randint(1, 6)}'
+    elif 'twitter' in lowered:
+        return 'https://twitter.com/'
+    elif 'instagram' in lowered:
+        return 'https://www.instagram.com/'
+    elif 'github' in lowered:
+        return 'https://github.com/'
     else:
         return choice(['I do not understand...',
                        'What are you talking about?',
