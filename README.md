@@ -1,7 +1,7 @@
 # DiscordBot
  A basic discord bot.
- Updates for the bot will be updated monthly if there are changes
-
+ Runs predefined commands.
+ 
 ## Installation
 
 Use the package manager [pip](https://pip.pypa.io/en/stable/) to run files.
